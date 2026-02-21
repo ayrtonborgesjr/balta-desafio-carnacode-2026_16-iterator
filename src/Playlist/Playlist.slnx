@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Playlist.Console/Playlist.Console.csproj" />
+  <Project Path="Playlist.Tests/Playlist.Tests.csproj" />
+</Solution>
