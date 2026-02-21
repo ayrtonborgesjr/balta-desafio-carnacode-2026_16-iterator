@@ -18,4 +18,8 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Playlist.Console\Playlist.Console.csproj" />
+    </ItemGroup>
+
 </Project>
