@@ -6,6 +6,5 @@ namespace Playlist.Console.Collections;
 public interface ISongCollection
 {
     ISongIterator CreateSequentialIterator();
-    ISongIterator CreateShuffleIterator();
     ISongIterator CreateFilteredIterator(Func<Song, bool> predicate);
 }
